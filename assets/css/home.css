@@ -1,0 +1,138 @@
+body {
+  background-color: #7DA684;
+  z-index: 0;
+  margin: 0;
+}
+
+#navbar {
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar_item {
+  color: white;
+  font-family: "Montserrat";
+  margin: 0 auto;
+  margin-top: 20.5px;
+  font-size: 16px;
+  z-index: 2;
+  transition: color 0.2s ease-in-out;
+  width: 25%;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #545454;
+  cursor: pointer;
+}
+
+.navbar_item:hover {
+  color: #545454;
+  cursor: pointer;
+}
+
+.navbar_rectangle {
+  height: 60px;
+  width: 75%;
+  background-color: #90BD98;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  z-index: 1;
+}
+
+#h1 {
+  opacity: 0;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 65px;
+  font-family: "Noto Serif SC";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  text-align: center;
+}
+
+#h2 {
+  opacity: 0;
+  color: white;
+  margin: 0 auto;
+  margin-top: 35px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.choice {
+  margin: 0 auto;
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease-in-out;
+}
+
+#choices {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row:
+}
+
+.choice:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+#label1 {
+  opacity: 0;
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#label2 {
+  opacity: 0;
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+#recycle {
+  opacity: 0;
+}
+
+#objects {
+  opacity: 0;
+}
+
+#credits {
+  position: absolute;
+  top: 95%;
+  right: 3%;
+  font-family: Montserrat;
+  color: #93bd9a;
+}

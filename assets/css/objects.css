@@ -1,0 +1,274 @@
+body {
+  background-color: #7DA684;
+  z-index: 0;
+  margin: 0;
+}
+
+#navbar {
+  margin-left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.navbar_item {
+  color: white;
+  font-family: "Montserrat";
+  margin: 0 auto;
+  margin-top: 20.5px;
+  font-size: 16px;
+  z-index: 2;
+  transition: color 0.2s ease-in-out;
+  width: 25%;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease-in-out;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #545454;
+  cursor: pointer;
+}
+
+.navbar_item:hover {
+  color: #545454;
+  cursor: pointer;
+}
+
+.navbar_rectangle_1 {
+  height: 60px;
+  width: 50%;
+  background-color: #90BD98;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar_rectangle_2 {
+  height: 60px;
+  width: 25%;
+  background-color: #90BD98;
+  position: absolute;
+  top: 0;
+  left: 75%;
+  z-index: 1;
+}
+
+#h1 {
+  opacity: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 58px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 7%;
+}
+
+#back_arrow {
+  position: absolute;
+  bottom: 4.5%;
+  left: 3%;
+  transition: left 0.1s ease-in-out;
+}
+
+#back_arrow:hover {
+  left: 2.5%;
+  cursor: pointer;
+}
+
+#back {
+  color: white;
+  font-family: Montserrat;
+  font-size: 24px;
+  position: absolute;
+  bottom: 5.5%;
+  left: 7%;
+}
+
+#line1 {
+  margin-top: 5%;
+  width: 50%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#line2 {
+  margin-top: 15%;
+  width: 50%;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.straw {
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+@keyframes wobble {
+  0% { transform: translateX(0%); }
+  25% { transform: translateX(-12%) rotate(-6deg); }
+  50% { transform: translateX(6%) rotate(4deg); }
+  75% { transform: translateX(-3%) rotate(-2deg) }
+  100% { transform: translateX(0%); }
+}
+
+.obj:hover {
+  cursor: pointer;
+  animation: wobble .7s ease 0s;
+}
+
+.straw:hover {
+  cursor: pointer;
+  animation: wobble .7s ease 0s;
+}
+
+#candybubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#candy:hover + #candybubble {
+  display: block;
+}
+
+#candy {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#utensilsbubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#utensils:hover + #utensilsbubble {
+  display: block;
+}
+
+#utensils {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#bagbubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#bag:hover + #bagbubble {
+  display: block;
+}
+
+#bag {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#bottlebubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#bottle:hover + #bottlebubble {
+  display: block;
+}
+
+#bottle {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#cigarettebubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#cigarette:hover + #cigarettebubble {
+  display: block;
+}
+
+#cigarette {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#sixpackbubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#sixpack:hover + #sixpackbubble {
+  display: block;
+}
+
+#sixpack {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#strawsbubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#straws:hover + #strawsbubble {
+  display: block;
+}
+
+#straws {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#platebubble {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+#plate:hover + #platebubble {
+  display: block;
+}
+
+#plate {
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+#credits {
+  position: absolute;
+  top: 95%;
+  right: 3%;
+  font-family: Montserrat;
+  color: #93bd9a;
+}
